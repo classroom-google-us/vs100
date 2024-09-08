@@ -23,7 +23,7 @@
 <script>
     window.addEventListener("load", function () {
       if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("ServiceWorker.js");
+        navigator.serviceWorker.register("https://cdn.jsdelivr.net/gh/classroom-google-us/vs100@main/ServiceWorker.js");
       }
     });
 
@@ -57,7 +57,7 @@
       updateBannerVisibility();
     }
 
-    var buildUrl = "Build";
+    var buildUrl = "https://cdn.jsdelivr.net/gh/classroom-google-us/vs100@main/Build/";
     var loaderUrl = buildUrl + "/YouVsSkibidi_Yandex2.loader.js";
     var config = {
       dataUrl: buildUrl + "/YouVsSkibidi_Yandex2.data.unityweb",
@@ -372,6 +372,9 @@
   </script>
 
 <script>
+      function Reward(id) {
+      console.log('showRewardedAd');
+    }
     function showRewardedAd(id) {
       console.log('showRewardedAd');
     }
@@ -385,3 +388,5 @@
   </script>
 </body>
 </html>
+
+
