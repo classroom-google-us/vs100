@@ -87,7 +87,7 @@
       window.devicePixelRatio = 1.5;
     }
 
-    canvas.style.background = "url('" + buildUrl + "/YouVsSkibidi_Yandex2.jpg.unityweb') center / cover";
+    canvas.style.background = "url('https://cdn.jsdelivr.net/gh/classroom-google-us/vs100@main/background.jpg') center / cover";
     loadingBar.style.display = "block";
 
     var script = document.createElement("script");
@@ -108,8 +108,8 @@
     var player = null;
     var sdk;
     var payments = null;
-    var SHOW_ADS = true;
-    var showRewardedAd = false;
+    var SHOW_ADS = null;
+    var showRewardedAd = null;
 
     YaGames.init({
       adv: {
