@@ -1,9 +1,9 @@
 const cacheName = "GoGoMan-Skibidi Toilet HordeV2-1.0";
 const contentToCache = [
-    "Build/YouVsSkibidi_Yandex2.loader.js",
-    "Build/YouVsSkibidi_Yandex2.framework.js.unityweb",
-    "Build/YouVsSkibidi_Yandex2.data.unityweb",
-    "Build/YouVsSkibidi_Yandex2.wasm.unityweb",
+    "Build/YouVsSkibidi_GD.loader.js",
+    "Build/YouVsSkibidi_GD.framework.js.unityweb",
+    "Build/YouVsSkibidi_GD.data.unityweb",
+    "Build/YouVsSkibidi_GD.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
