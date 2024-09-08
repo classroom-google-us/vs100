@@ -349,6 +349,37 @@
       }
     }
   </script>
-
+<script>
+    function showFullscrenAd() {
+      sdk.adv.showFullscreenAdv({
+        callbacks: {
+          onOpen: () => {
+            window.unityInstance.SendMessage('SDKPlatform', 'AudioEnable', 0);
+          },
+          onClose: () => {
+            window.unityInstance.SendMessage('SDKPlatform', 'AudioEnable', 1);
+          },
+          onError: (e) => {
+            window.unityInstance.SendMessage('SDKPlatform', 'AudioEnable', 1);
+          }
+        }
+      })
+    }
+  </script>
+<script>
+    function rate() {
+    }
+  </script>
+<script>
+    function showRewardedAd(id) {
+ // asda
+    }
+  </script>
+<script type="text/javascript">
+    function plsSendGoal(id) {
+      ym(94286723, 'reachGoal', id);
+      console.log('метрика отправлена: ' + id);
+    }
+  </script>
 </body>
 </html>
